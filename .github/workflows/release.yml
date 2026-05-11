@@ -13,7 +13,7 @@ jobs:
       contents: write
       issues: write
       pull-requests: write
-      id-token: write  # Required for OIDC
+      id-token: write
     steps:
       - name: Check out
         uses: actions/checkout@v4
@@ -23,13 +23,15 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
-          node-version: '22.14.0'
+          node-version: '22'
 
-      - name: Run semantic-release
+      - name: Validate package
+        run: npm ci
+
+      - name: Publish
+        uses: cloud-copilot/action-publish@main
+        with:
+          update-version-file: version.js
+          version-export-name: IAM_COLLECT_VERSION
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          npm ci
-          npx semantic-release
-
-
