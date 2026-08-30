@@ -1,3 +1,10 @@
+## [1.0.18](https://github.com/act-security-labs/publishing/compare/v1.0.17...v1.0.18) (2026-08-30)
+
+
+### Features
+
+* dual publishing ([8d43248](https://github.com/act-security-labs/publishing/commit/8d432487faba1b149aa061dce6253a7744a195bd))
+
 ## [1.0.17](https://github.com/act-security-labs/publishing/compare/v1.0.16...v1.0.17) (2026-08-30)
 
 
