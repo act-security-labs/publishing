@@ -1,3 +1,10 @@
+## [1.0.17](https://github.com/act-security-labs/publishing/compare/v1.0.16...v1.0.17) (2026-08-30)
+
+
+### Bug Fixes
+
+* url ([645dc89](https://github.com/act-security-labs/publishing/commit/645dc8912044692ec709a4f86ac230c798be08fd))
+
 ## [1.0.16](https://github.com/cloud-copilot/publishing/compare/v1.0.15...v1.0.16) (2026-02-22)
 
 ## [1.0.15](https://github.com/cloud-copilot/publishing/compare/v1.0.14...v1.0.15) (2026-02-22)
