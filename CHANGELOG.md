@@ -1,3 +1,10 @@
+## [1.0.20](https://github.com/act-security-labs/publishing/compare/v1.0.19...v1.0.20) (2026-08-30)
+
+
+### Bug Fixes
+
+* node version ([50c51fb](https://github.com/act-security-labs/publishing/commit/50c51fb35b4e06abf026ed425dfdbf5b80645c96))
+
 ## [1.0.19](https://github.com/act-security-labs/publishing/compare/v1.0.18...v1.0.19) (2026-08-30)
 
 
