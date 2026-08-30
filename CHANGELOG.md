@@ -1,3 +1,10 @@
+## [1.0.21](https://github.com/act-security-labs/publishing/compare/v1.0.20...v1.0.21) (2026-08-30)
+
+
+### Bug Fixes
+
+* 3 ([4205b71](https://github.com/act-security-labs/publishing/commit/4205b716f8aaa0816f347763061fe2d82fe1c29e))
+
 ## [1.0.20](https://github.com/act-security-labs/publishing/compare/v1.0.19...v1.0.20) (2026-08-30)
 
 
