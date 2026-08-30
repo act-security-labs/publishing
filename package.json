@@ -1,5 +1,5 @@
 {
-  "name": "@cloud-copilot/publishing",
+  "name": "@actsecurity/publishing",
   "version": "1.0.16",
   "description": "A Github NPM Trusted Publishing Test",
   "license": "MIT",
