@@ -24,12 +24,21 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22.14.0'
+          registry-url: 'https://registry.npmjs.org'
 
       - name: Run semantic-release
+        id: semantic_release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           npm ci
           npx semantic-release
+
+      - name: Publish Cloud Copilot package alias
+        if: steps.semantic_release.outputs.published == 'true'
+        uses: act-security-labs/dual-npm-publish-action@v1
+        with:
+          package-name: '@cloud-copilot/publishing'
+          version: ${{ steps.semantic_release.outputs.version }}
 
 
