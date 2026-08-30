@@ -36,7 +36,7 @@ jobs:
 
       - name: Publish Cloud Copilot package alias
         if: steps.semantic_release.outputs.published == 'true'
-        uses: act-security-labs/dual-npm-publish-action@v1
+        uses: act-security-labs/dual-npm-publish-action@main
         with:
           package-name: '@cloud-copilot/publishing'
           version: ${{ steps.semantic_release.outputs.version }}
