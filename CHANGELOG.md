@@ -1,3 +1,10 @@
+## [1.0.19](https://github.com/act-security-labs/publishing/compare/v1.0.18...v1.0.19) (2026-08-30)
+
+
+### Features
+
+* 2 ([174ce5b](https://github.com/act-security-labs/publishing/commit/174ce5bb9d7847e70f15fafefc1bbe6b5d43a06b))
+
 ## [1.0.18](https://github.com/act-security-labs/publishing/compare/v1.0.17...v1.0.18) (2026-08-30)
 
 
